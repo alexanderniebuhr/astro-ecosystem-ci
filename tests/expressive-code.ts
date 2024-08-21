@@ -9,6 +9,7 @@ export async function test(options: RunOptions) {
 			'@astrojs/mdx': true,
 			'@astrojs/internal-helpers': true,
 			'@astrojs/markdown-remark': true,
+			'@astrojs/prism': true,
 			'@astrojs/telemetry': true,
 		},
 		branch: 'main',
