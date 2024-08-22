@@ -20,4 +20,5 @@ export const packages = {
 	'@astrojs/react': 'packages/integrations/react',
 	'@astrojs/solid-js': 'packages/integrations/solid-js',
 	'@astrojs/svelte': 'packages/integrations/svelte',
+	'@astrojs/prism': 'packages/astro-prism',
 };
