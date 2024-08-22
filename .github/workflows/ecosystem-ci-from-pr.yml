@@ -29,10 +29,8 @@ on:
         type: choice
         options:
           - "-"
-          - adapters
           - expressive-code
           - vtbot
-          - integration-kit
 jobs:
   init:
     runs-on: ubuntu-latest
@@ -103,10 +101,8 @@ jobs:
     strategy:
       matrix:
         suite:
-          - adapters
           - expressive-code
           - vtbot
-          - integration-kit
       fail-fast: false
     steps:
       - uses: actions/checkout@v4
