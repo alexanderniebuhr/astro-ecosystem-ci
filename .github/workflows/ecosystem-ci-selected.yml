@@ -34,10 +34,8 @@ on:
         required: true
         type: choice
         options:
-          - adapters
           - expressive-code
           - vtbot
-          - integration-kit
 jobs:
   execute-selected-suite:
     timeout-minutes: 30
