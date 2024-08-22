@@ -8,6 +8,7 @@ export async function test(options: RunOptions) {
 		overrides: {
 			'@astrojs/internal-helpers': true,
 			'@astrojs/markdown-remark': true,
+			'@astrojs/prism': true,
 			'@astrojs/vue': true,
 			'@astrojs/tailwind': true,
 			'@astrojs/preact': true,
