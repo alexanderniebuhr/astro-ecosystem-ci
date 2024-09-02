@@ -36,6 +36,7 @@ on:
         options:
           - expressive-code
           - vtbot
+          - starlight
 jobs:
   execute-selected-suite:
     timeout-minutes: 30

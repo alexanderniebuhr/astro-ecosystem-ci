@@ -42,6 +42,7 @@ jobs:
         suite:
           - expressive-code
           - vtbot
+          - starlight
       fail-fast: false
     steps:
       - uses: actions/checkout@v4
