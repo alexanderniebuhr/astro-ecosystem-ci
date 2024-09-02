@@ -17,7 +17,8 @@ export async function test(options: RunOptions) {
 		branch: "main",
 		test: [
 			// Check types pass
-			"pnpm --filter starlight-docs astro sync && pnpm typecheck",
+			"pnpm --filter starlight-docs astro sync",
+			"pnpm typecheck",
 			// Run tests for core Starlight package
 			"pnpm --filter @astrojs/starlight test",
 			// Smoke test that building example projects works
